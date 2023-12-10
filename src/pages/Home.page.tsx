@@ -3,7 +3,7 @@ import { ActionIcon, Alert, Box, Container, Grid, Text, TextInput, Card, Group }
 import { IconInfoCircle, IconSearch, IconTrashFilled } from '@tabler/icons-react';
 import classes from './Home.page.module.css';
 
-const OPEN_WEATHER_API_KEY = 'eae38a61c8d9dad98a0ff70cdaf449a2';
+const OPEN_WEATHER_API_KEY = '';
 
 export function HomePage() {
   const [city, setCity] = useState('');
